@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+<body>  
+  <table style="border-collapse:collapse;border:1px solid #E8ECFA;"> 
+    
+    <tr style="background-color:#F2F5FC; height: 32px">
+      <td></td>
+      <td></td>
+      <td></td>
+      <th>Labor</th>
+      <td></td>
+      <td></td>
+      <th>Parts</th>
+      <td></td>
+      <td></td>
+      <th>Total</th>
+      <td></td>
+    </tr>
+    
+    <tr style="height: 32px; background-color:#FFFFFF;border:1px solid #E8ECFA">
+      <td style="width: 300px; padding: 4px 8px 4px 8px;"><strong>Technician</strong></td>
+      <td style="width: 90px;padding: 4px 8px 4px 8px;"><strong>Hours</strong></td>
+      <td style="width: 122px;padding: 4px 8px 4px 8px;"><strong>Purchase</strong></td>
+      <td style="width: 90px;padding: 4px 8px 4px 8px;"><strong>Sales</strong></td>
+      <td style="width: 90px;padding: 4px 8px 4px 8px;"><strong>Profit</strong></td>
+      <td style="width: 122px;padding: 4px 8px 4px 8px;"><strong>Purchase</strong></td>
+      <td style="width: 90px;padding: 4px 8px 4px 8px;"><strong>Sales</strong></td>
+      <td style="width: 90px;padding: 4px 8px 4px 8px;"><strong>Profit</strong></td>
+      <td style="width: 122px;padding: 4px 8px 4px 8px;"><strong>Purchase</strong></td>
+      <td style="width: 90px;padding: 4px 8px 4px 8px;"><strong>Sales</strong></td>
+      <td style="width: 90px;padding: 4px 8px 4px 8px;"><strong>Profit</strong></td>
+    </tr>
+    
+    <tr style="height: 32px; background-color:#FFFFFF;border:1px solid #E8ECFA">
+      <td style="padding: 4px 8px 4px 8px;color:#2F74D7">Kristo Post</td>
+      <td style="padding: 4px 8px 4px 8px;">3.50 h</td>
+      <td style="padding: 4px 8px 4px 8px;">88.75</td>
+      <td style="padding: 4px 8px 4px 8px;">92.50</td>
+      <td style="padding: 4px 8px 4px 8px;">215.00</td>
+      <td style="padding: 4px 8px 4px 8px;">102.30</td>
+      <td style="padding: 4px 8px 4px 8px;">64.99</td>
+      <td style="padding: 4px 8px 4px 8px;">220.00</td>
+      <td style="padding: 4px 8px 4px 8px;">88.00</td>
+      <td style="padding: 4px 8px 4px 8px;">82.50</td>
+      <td style="padding: 4px 8px 4px 8px;">210.00</td>
+    </tr>
+    
+    <tr style="height: 32px; background-color:#FFFFFF;border:1px solid #E8ECFA">
+      <td style="padding: 4px 8px 4px 8px;color:#2F74D7">Sean Christiansen</td>
+      <td style="padding: 4px 8px 4px 8px;">3.50 h</td>
+      <td style="padding: 4px 8px 4px 8px;">91.20</td>
+      <td style="padding: 4px 8px 4px 8px;">78.90</td>
+      <td style="padding: 4px 8px 4px 8px;">205.00</td>
+      <td style="padding: 4px 8px 4px 8px;">80.00</td>
+      <td style="padding: 4px 8px 4px 8px;">76.75</td>
+      <td style="padding: 4px 8px 4px 8px;">230.00</td>
+      <td style="padding: 4px 8px 4px 8px;">81.25</td>
+      <td style="padding: 4px 8px 4px 8px;">89.99</td>
+      <td style="padding: 4px 8px 4px 8px;">225.00</td>
+    </tr>
+    
+    <tr style="height: 32px; background-color:#FFFFFF;border:1px solid #E8ECFA">
+      <td style="padding: 4px 8px 4px 8px;color:#2F74D7">Martin Brundle</td>
+      <td style="padding: 4px 8px 4px 8px;">3.50 h</td>
+      <td style="padding: 4px 8px 4px 8px;">79.99</td>
+      <td style="padding: 4px 8px 4px 8px;">90.00</td>
+      <td style="padding: 4px 8px 4px 8px;">1350.00</td>
+      <td style="padding: 4px 8px 4px 8px;">84.99</td>
+      <td style="padding: 4px 8px 4px 8px;">90.50</td>
+      <td style="padding: 4px 8px 4px 8px;">1340.00</td>
+      <td style="padding: 4px 8px 4px 8px;">93.00</td>
+      <td style="padding: 4px 8px 4px 8px;">85.50</td>
+      <td style="padding: 4px 8px 4px 8px;">1400.00</td>
+    </tr>
+    
+    <tr style="height: 32px; background-color:#FFFFFF;border:1px solid #E8ECFA">
+      <td style="padding: 4px 8px 4px 8px;color:#2F74D7">Johnny Herbert</td>
+      <td style="padding: 4px 8px 4px 8px;">3.50 h</td>
+      <td style="padding: 4px 8px 4px 8px;">85.00</td>
+      <td style="padding: 4px 8px 4px 8px;">83.45</td>
+      <td style="padding: 4px 8px 4px 8px;">1300.00</td>
+      <td style="padding: 4px 8px 4px 8px;">95.00</td>
+      <td style="padding: 4px 8px 4px 8px;">75.50</td>
+      <td style="padding: 4px 8px 4px 8px;">1280.00</td>
+      <td style="padding: 4px 8px 4px 8px;">78.25</td>
+      <td style="padding: 4px 8px 4px 8px;">87.50</td>
+      <td style="padding: 4px 8px 4px 8px;">1325.00</td>
+    </tr>
+    
+    <tr style="height: 32px; background-color:#F2F5FC;">
+      <td style="padding: 4px 8px 4px 8px;"><strong>Total</strong></td>
+      <td style="padding: 4px 8px 4px 8px;"><strong>12.00 h</strong></td>
+      <td style="padding: 4px 8px 4px 8px;"><strong>$359.90</strong></td>
+      <td style="padding: 4px 8px 4px 8px;"><strong>$359.90</strong></td>
+      <td style="padding: 4px 8px 4px 8px;"><strong>$2550.00</strong></td>
+      <td style="padding: 4px 8px 4px 8px;"><strong>$359.90</strong></td>
+      <td style="padding: 4px 8px 4px 8px;"><strong>$359.90</strong></td>
+      <td style="padding: 4px 8px 4px 8px;"><strong>$359.90</strong></td>
+      <td style="padding: 4px 8px 4px 8px;"><strong>$359.90</strong></td>
+      <td style="padding: 4px 8px 4px 8px;"><strong>$359.90</strong></td>
+      <td style="padding: 4px 8px 4px 8px;"><strong>$359.90</strong></td>
+    </tr>
+    
+  </table>
+</body>
+</html>
